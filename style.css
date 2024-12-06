@@ -201,3 +201,17 @@ section.sobre .flex{
 }
 
 /* ESTILO DO PORTIFOLIO */
+section.portifolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: aquamarine;
+}
+
+section.portifolio .flex{
+    justify-content: space-around;
+}
