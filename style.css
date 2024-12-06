@@ -78,6 +78,32 @@ header nav li {
     padding: 0 40px;
 }
 
+/* ESTILO MENU MOBILE */
+.menu-mobile {
+    background-color: red;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 70%;
+}
+
+.menu-mobile nav ul {
+    text-align: right;
+}
+
+.menu-mobile nav ul li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 4%;
+}
+
+.menu-mobile nav ul li a:hover {
+    background-color:aqua ;
+}
+
 /* ESTILO DO TOPO DO SITE */
 section.topo-do-site {
     padding: 40px 4%;
@@ -373,7 +399,7 @@ footer .line-footer p a {
         padding: 80px 8%;
     }
 
-    .sobre .txt-sobre h2{
+    .sobre .txt-sobre h2 {
         font-size: 34px;
         line-height: 35px;
         text-align: center;
@@ -383,7 +409,7 @@ footer .line-footer p a {
         text-align: center;
     }
 
-    .img-sobre img{
+    .img-sobre img {
         width: 100%;
     }
 
@@ -392,23 +418,23 @@ footer .line-footer p a {
         padding: 80px 8%;
     }
 
-    .img-port{
+    .img-port {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
     }
 
-    section.portifolio .flex{
+    section.portifolio .flex {
         gap: 60px;
     }
 
     /* RODAPE */
-    footer .flex{
+    footer .flex {
         flex-direction: column;
         gap: 30px;
     }
 
-    footer .line-footer{
+    footer .line-footer {
         text-align: center;
     }
 }
