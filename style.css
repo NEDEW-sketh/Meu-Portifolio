@@ -293,21 +293,38 @@ section.portifolio {
     box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
+section.portifolio .interface {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 section.portifolio .flex {
-    justify-content: space-around;
+    display: flex;
+    flex-direction: row; /* Coloca os itens em linha */
+    flex-wrap: wrap; /* Permite que os itens que não cabem na linha atual quebrem para a linha seguinte */
+    justify-content: space-between; /* Distribui os itens igualmente com espaçamento entre eles */
+    align-items: center;  /* Opcional: centraliza os itens verticalmente, caso necessário */
     margin-top: 60px;
+}
+
+section.portifolio a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .img-port {
     width: 360px;
     height: 460px;
-    background-color: aquamarine;
-    background-size: cover;
-    background-position: 100% 0%;
+    background-color: aqua;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position: 100% 0%; */
     transition: 8s;
     cursor: pointer;
     border-radius: 40px;
     position: relative;
+    overflow: hidden;
 }
 
 .img-port:hover {
@@ -334,6 +351,21 @@ section.portifolio .flex {
 
 .overlay:hover {
     opacity: 1;
+}
+
+.text-port1, .text-port2 {
+    color: #fff; /* Cor do texto alterada para branco */
+    font-size: 1rem; /* Definir um tamanho de fonte mais compacto */
+    line-height: 1.6; /* Aumentar o espaçamento entre as linhas para melhorar a legibilidade */
+    max-width: 800px; /* Limitar a largura para evitar que o texto ocupe muito espaço */
+    margin: 0 auto; /* Centralizar o texto dentro do contêiner */
+    padding: 15px; /* Adicionar um pouco de padding para separar o texto das bordas */
+}
+
+.text-port1 p, .text-port2 p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 0; /* Remover margens extras que possam aumentar o espaço */
 }
 
 /* ESTILO DO FORMULARIO DE CONTATO */
@@ -475,6 +507,10 @@ footer .line-footer p a {
     /* PORTIFOLIO */
     section .portifolio {
         padding: 80px 8%;
+    }
+
+    div.especialidades-box p {
+        text-align: justify;
     }
 
     .img-port {
