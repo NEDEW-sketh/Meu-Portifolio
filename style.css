@@ -313,10 +313,10 @@ section.portifolio .interface {
 
 section.portifolio .flex {
     display: flex;
-    flex-direction: row; /* Coloca os itens em linha */
-    flex-wrap: wrap; /* Permite que os itens que não cabem na linha atual quebrem para a linha seguinte */
-    justify-content: space-between; /* Distribui os itens igualmente com espaçamento entre eles */
-    align-items: center;  /* Opcional: centraliza os itens verticalmente, caso necessário */
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center;  
     margin-top: 60px;
 }
 
@@ -367,12 +367,12 @@ section.portifolio a {
 }
 
 .text-port1, .text-port2 {
-    color: #fff; /* Cor do texto alterada para branco */
-    font-size: 1rem; /* Definir um tamanho de fonte mais compacto */
+    color: #fff; 
+    font-size: 1rem; 
     line-height: 1.6; /* Aumentar o espaçamento entre as linhas para melhorar a legibilidade */
     max-width: 800px; /* Limitar a largura para evitar que o texto ocupe muito espaço */
-    margin: 0 auto; /* Centralizar o texto dentro do contêiner */
-    padding: 15px; /* Adicionar um pouco de padding para separar o texto das bordas */
+    margin: 0 auto; 
+    padding: 15px; /* Adiciona um pouco de padding para separar o texto das bordas */
 }
 
 .text-port1 p, .text-port2 p {
