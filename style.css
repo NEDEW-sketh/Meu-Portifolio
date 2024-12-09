@@ -432,8 +432,32 @@ footer .line-footer {
     padding: 20px 0%;
 }
 
+.line-footer.borda p {
+    display: inline-block;
+    vertical-align: middle; /* Alinha verticalmente os itens */
+}
+
+.line-footer.borda img {
+    vertical-align: middle; /* Alinha verticalmente com o texto */
+    margin-right: 10px; /* Espaçamento entre a imagem e o link */
+}
+
+.line-footer.borda a {
+    text-decoration: none;
+}
+
 .borda {
     border-top: 2px solid aquamarine;
+}
+
+.btn-social {
+    position: relative;
+    top: 20px;
+}
+
+.btn-social img {
+    position: relative;
+    top: 4px;
 }
 
 footer .line-footer p i {
@@ -502,6 +526,14 @@ footer .line-footer p a {
 
     .btn-social {
         text-align: center;
+        position: relative;
+        top: -10px;
+    }
+
+    .line-footer.borda a {
+        display: block; /* Força uma quebra de linha */
+        margin: 5px auto; /* Centraliza horizontalmente */
+        text-align: center; /* Para a âncora */
     }
 
     .img-sobre img {
