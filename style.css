@@ -101,6 +101,10 @@ header nav.menu-desktop ul li {
     mix-blend-mode: screen;
 }
 
+div.flex .especialidades-box p {
+    text-align: justify;
+}
+
 /* ESTILO MENU MOBILE */
 .btn-abrir-menu i {
     color: aqua;
