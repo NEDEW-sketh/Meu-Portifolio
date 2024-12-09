@@ -1,4 +1,9 @@
 /* ESTILO GERAL */
+
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -100,7 +105,7 @@ header nav.menu-desktop ul li {
     width: 70%;
 }
 
-.menu-mobile.abrir-menu ~ .overlay-menu {
+.menu-mobile.abrir-menu~.overlay-menu {
     display: block;
 }
 
@@ -160,6 +165,10 @@ section.topo-do-site .flex {
     color: #fff;
     font-size: 42px;
     line-height: 40px;
+}
+
+.topo-do-site h1 a {
+    transition: .2s;
 }
 
 .topo-do-site h1 span {
