@@ -83,6 +83,13 @@ header nav.menu-desktop ul li {
     padding: 0 40px;
 }
 
+/* ESTILO FORMAÇÃO */
+
+.especialidades-box img {
+    filter: grayscale(1) brightness(0) invert(1);
+    mix-blend-mode: screen;
+}
+
 /* ESTILO MENU MOBILE */
 .btn-abrir-menu i {
     color: aqua;
